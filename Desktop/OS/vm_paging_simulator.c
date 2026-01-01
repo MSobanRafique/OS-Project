@@ -4,8 +4,8 @@
  * 
  * Group Members:
  * 1. M. Muzzammil - Roll No: 232450 (FIFO, LRU Implementation)
- * 2. M. Soban Rafique - Roll No: 232447 (Optimal, Second Chance Implementation)  
- * 3. Farhan Ali - Roll No: 232522 (File I/O, Comparison Mode, Reports)
+ * 2. M. Soban Rafique - Roll No: 232447 (Optimal, Second Chance Implementation, Report)  
+ * 3. Farhan Ali - Roll No: 232522 (File I/O, Comparison Mode,)
  *
  * Features:
  * - 4 Page Replacement Algorithms
