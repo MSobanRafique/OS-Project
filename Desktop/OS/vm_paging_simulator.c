@@ -3,9 +3,9 @@
  * OS Lab Semester Project (Group of 3)
  * 
  * Group Members:
- * 1. [Student 1 Name] - Roll No: [xxx] (FIFO, LRU Implementation)
- * 2. [Student 2 Name] - Roll No: [xxx] (Optimal, Second Chance Implementation)  
- * 3. [Student 3 Name] - Roll No: [xxx] (File I/O, Comparison Mode, Reports)
+ * 1. M. Muzzammil - Roll No: 232450 (FIFO, LRU Implementation)
+ * 2. M. Soban Rafique - Roll No: 232447 (Optimal, Second Chance Implementation)  
+ * 3. Farhan Ali - Roll No: 232522 (File I/O, Comparison Mode, Reports)
  *
  * Features:
  * - 4 Page Replacement Algorithms

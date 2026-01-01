@@ -1,0 +1,66 @@
+========================================
+  VIRTUAL MEMORY PAGING SIMULATOR
+     PERFORMANCE REPORT
+========================================
+
+Generated on: 2026-01-01 14:46:12
+Group Members: [Names]
+
+INPUT CONFIGURATION:
+-------------------
+Number of Frames: 4
+Number of Pages: 9
+Reference String: 34 54 23 2 45 34 54 2 0 
+
+ALGORITHM COMPARISON:
+--------------------
+Algorithm            |   Faults |     Hits |   Fault %% |     Hit %%
+---------------------|----------|----------|------------|------------
+FIFO                 |        8 |        1 |     88.89% |     11.11%
+LRU                  |        8 |        1 |     88.89% |     11.11%
+Optimal              |        6 |        3 |     66.67% |     33.33%
+Second Chance        |        8 |        1 |     88.89% |     11.11%
+
+>>> Best Algorithm: Optimal (Minimum Faults: 6, Hit Ratio: 33.33%)
+
+DETAILED STATISTICS:
+-------------------
+
+FIFO Algorithm:
+  Total Page References: 9
+  Total Page Faults:     8
+  Total Page Hits:       1
+  Page Fault Ratio:      88.89%
+  Page Hit Ratio:        11.11%
+
+LRU Algorithm:
+  Total Page References: 9
+  Total Page Faults:     8
+  Total Page Hits:       1
+  Page Fault Ratio:      88.89%
+  Page Hit Ratio:        11.11%
+
+Optimal Algorithm:
+  Total Page References: 9
+  Total Page Faults:     6
+  Total Page Hits:       3
+  Page Fault Ratio:      66.67%
+  Page Hit Ratio:        33.33%
+
+Second Chance Algorithm:
+  Total Page References: 9
+  Total Page Faults:     8
+  Total Page Hits:       1
+  Page Fault Ratio:      88.89%
+  Page Hit Ratio:        11.11%
+
+PERFORMANCE ANALYSIS:
+--------------------
+Optimal Algorithm Performance: 6 faults (theoretical best)
+FIFO vs Optimal: 0.00% efficiency (2 more faults)
+LRU vs Optimal: 0.00% efficiency (2 more faults)
+Second Chance vs Optimal: 0.00% efficiency (2 more faults)
+
+========================================
+End of Report
+========================================
